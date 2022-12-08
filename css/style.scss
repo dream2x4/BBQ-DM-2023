@@ -1,0 +1,273 @@
+@use "typography" as *;
+@use "colors" as *;
+@each $tag, $size in $font-sizes {
+    #{$tag} {
+        font-size: $size;
+    }
+}
+@each $name, $size in $font-sizes {
+    .#{$name} {
+        font-size: $size;
+    }
+}
+
+/* Text */
+
+.header {
+    color: $secondary-color;
+    @include header_text;
+}
+
+.header_underline {
+    color: $secondary-color;
+    @include header_text;
+    border-bottom: 4px solid $secondary-color;
+}
+
+.paragraph {
+    color: $septenary-color;
+    text-align: center;
+    @include paragraph_text;
+}
+
+.text-highlight {
+    color: $secondary-color;
+    font-weight: 700;
+}
+
+/* Buttons */
+
+.btn {
+    font-size: 45px;
+    color: $teriary-color;
+    background-color: $primary-color;
+    border-radius: 0;
+    @include style_text;
+    width: 100%;
+
+    &:hover {
+        color: $teriary-color;
+        background-color: $primary-color;
+    }
+}
+
+/* Body */
+
+body {
+    background-image: url(/img/graphics/BBQ_baggrund.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: $quanternary-color;
+    box-shadow: 0 0 16px #000000;
+    width: 100%;
+}
+
+.navbar-brand {
+    color: $septenary-color;
+
+    &:hover {
+        color: $septenary-color;
+    }
+
+    &:focus {
+        color: $septenary-color;
+    }
+}
+
+.nav-link {
+    color: $septenary-color;
+    @include style_text;
+    font-size: 20px;
+    text-shadow: 0 0 16px #000000;
+    margin-left: 8px;
+    margin-right: 8px;
+
+    &:hover {
+        color: $secondary-color;
+    }
+
+    &:focus {
+        color: $septenary-color;
+    }
+}
+
+/* Searchbar toggler */
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url(/img/graphics/nav_icon.png);
+    width: 30px;
+    height: 30px;
+}
+
+/* Hero */
+
+.hero-container {
+    background-color: aqua;
+    height: 100vh;
+}
+
+/* Countdown */
+
+.countdown-container {
+    background-color: $quanternary-color;
+    height: 50vh;
+}
+
+/* Event */
+
+.info-top {
+    height: 50vh;
+}
+
+.info-about_us {
+    padding-right: 6px;
+    position: relative;
+}
+
+.info-textbox {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.info-kids_q {
+    padding-left: 6px;
+    position: relative;
+}
+
+.info-bottom {
+    padding-top: 12px;
+}
+
+.info-entrance {
+    padding-right: 6px;
+    position: relative;
+}
+
+.entrance_box {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+}
+
+.info-news {
+    padding-left: 6px;
+    position: relative;
+}
+
+.space {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+/* DM info */
+
+.dm-info {
+    position: relative;
+}
+
+.dm_info_textbox {
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+}
+
+.dm_info_text {
+    height: 100%;
+}
+
+.info_ready {
+    height: 50%;
+    border-bottom: 2px solid $septenary-color;
+}
+
+.info_new {
+    height: 50%;
+    border-top: 2px solid $septenary-color;
+}
+
+.dm_info_btn {
+    height: 100%;
+    padding: 0 5%;
+}
+
+/* Footer */
+
+.footer_box {
+    background-color: $senary-color;
+}
+
+.footer_link_container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer_links {
+    color: $octonary-color;
+    text-decoration: none;
+    @include style_text;
+    
+    &:hover {
+        color: $septenary-color;
+    }
+}
+
+.copyright_box {
+    background-color: $senary-color;
+}
+
+.footer_inner-box {
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+.footer_border {
+    border-top: 2px solid $octonary-color;
+}
+
+.footer_textbox {
+    height: 70px;
+}
+
+.footer_text {
+    font-size: 15px;
+    color: $octonary-color;
+    margin: 0;
+    @include paragraph_text;
+}
+
+.social_media_instagram_icon {
+    color: $octonary-color;
+    text-decoration: none;
+    margin-right: 15px;
+
+    &:hover {
+        color: $octonary-color;
+    }
+}
+
+.social_media_facebook_icon {
+    color: $octonary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $octonary-color;
+    }
+}

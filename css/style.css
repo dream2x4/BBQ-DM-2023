@@ -1,0 +1,285 @@
+/* Octin font-family */
+@import url("https://use.typekit.net/xpj8oec.css");
+/* Raleway font-family */
+@import url("https://use.typekit.net/xpj8oec.css");
+/* Font sizes */
+h1 {
+  font-size: 60px;
+}
+
+p {
+  font-size: 25px;
+}
+
+footer_links {
+  font-size: 25px;
+}
+
+.h1 {
+  font-size: 60px;
+}
+
+.p {
+  font-size: 25px;
+}
+
+.footer_links {
+  font-size: 25px;
+}
+
+/* Text */
+.header {
+  color: #D97904;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header_underline {
+  color: #D97904;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-bottom: 4px solid #D97904;
+}
+
+.paragraph {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-highlight {
+  color: #D97904;
+  font-weight: 700;
+}
+
+/* Buttons */
+.btn {
+  font-size: 45px;
+  color: #F9EACB;
+  background-color: #7C1A17;
+  border-radius: 0;
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+}
+.btn:hover {
+  color: #F9EACB;
+  background-color: #7C1A17;
+}
+
+/* Body */
+body {
+  background-image: url(/img/graphics/BBQ_baggrund.png);
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: 50% 50%;
+}
+
+/* navbar */
+.navbar {
+  background-color: #1D1A1A;
+  box-shadow: 0 0 16px #000000;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: #FFFFFF;
+}
+.navbar-brand:hover {
+  color: #FFFFFF;
+}
+.navbar-brand:focus {
+  color: #FFFFFF;
+}
+
+.nav-link {
+  color: #FFFFFF;
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-shadow: 0 0 16px #000000;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.nav-link:hover {
+  color: #D97904;
+}
+.nav-link:focus {
+  color: #FFFFFF;
+}
+
+/* Searchbar toggler */
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url(/img/graphics/nav_icon.png);
+  width: 30px;
+  height: 30px;
+}
+
+/* Hero */
+.hero-container {
+  background-color: aqua;
+  height: 100vh;
+}
+
+/* Countdown */
+.countdown-container {
+  background-color: #1D1A1A;
+  height: 50vh;
+}
+
+/* Event */
+.info-top {
+  height: 50vh;
+}
+
+.info-about_us {
+  padding-right: 6px;
+  position: relative;
+}
+
+.info-textbox {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.info-kids_q {
+  padding-left: 6px;
+  position: relative;
+}
+
+.info-bottom {
+  padding-top: 12px;
+}
+
+.info-entrance {
+  padding-right: 6px;
+  position: relative;
+}
+
+.entrance_box {
+  position: absolute;
+  width: 60%;
+  height: 60%;
+}
+
+.info-news {
+  padding-left: 6px;
+  position: relative;
+}
+
+.space {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+/* DM info */
+.dm-info {
+  position: relative;
+}
+
+.dm_info_textbox {
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+}
+
+.dm_info_text {
+  height: 100%;
+}
+
+.info_ready {
+  height: 50%;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.info_new {
+  height: 50%;
+  border-top: 2px solid #FFFFFF;
+}
+
+.dm_info_btn {
+  height: 100%;
+  padding: 0 5%;
+}
+
+/* Footer */
+.footer_box {
+  background-color: #2C2A29;
+}
+
+.footer_link_container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer_links {
+  color: #707070;
+  text-decoration: none;
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer_links:hover {
+  color: #FFFFFF;
+}
+
+.copyright_box {
+  background-color: #2C2A29;
+}
+
+.footer_inner-box {
+  padding-top: 10vh;
+  padding-bottom: 20vh;
+}
+
+.footer_border {
+  border-top: 2px solid #707070;
+}
+
+.footer_textbox {
+  height: 70px;
+}
+
+.footer_text {
+  font-size: 15px;
+  color: #707070;
+  margin: 0;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.social_media_instagram_icon {
+  color: #707070;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.social_media_instagram_icon:hover {
+  color: #707070;
+}
+
+.social_media_facebook_icon {
+  color: #707070;
+  text-decoration: none;
+}
+.social_media_facebook_icon:hover {
+  color: #707070;
+}/*# sourceMappingURL=style.css.map */

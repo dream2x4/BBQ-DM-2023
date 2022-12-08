@@ -1,0 +1,31 @@
+/* Octin font-family */
+@import url("https://use.typekit.net/xpj8oec.css");
+
+/* Raleway font-family */
+@import url("https://use.typekit.net/xpj8oec.css");
+
+@mixin header_text {
+    font-family: octin-college,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin style_text {
+    font-family: octin-spraypaint,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@mixin paragraph_text {
+    font-family: raleway,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Font sizes */
+
+$font-sizes: (
+    h1: 60px,
+    p: 25px,
+    footer_links: 25px,
+);
