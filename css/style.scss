@@ -281,7 +281,10 @@ body {
 /*cover*/
 .cover_news {
     height: 40vh;
-    background-color: $primary-color;
+    background-image: url(/img/photos/kød.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
 }
 
 .NEWS {
@@ -293,11 +296,32 @@ body {
 .news_box {
     height: 70vh;
     background-color: white;
+    background-image: url(/img/photos/thumbnail_newskidsq_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news_box2 {
+    height: 70vh;
+    background-color: white;
+    background-image: url(/img/photos/American\ cars.png);
+    background-position: 50%, 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.news_box3 {
+    height: 70vh;
+    background-color: white;
+    background-image: url(/img/photos/bootz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
 }
 
 .news_textbox {
     height: 70vh;
-    background-color: $octonary-color;
+    background-color: rgba(0, 0, 0, 0.356);
     @include paragraph_text;
     color: $septenary-color;
     padding: 0 60px 0 60px;
@@ -305,11 +329,5 @@ body {
 
 .news_headline {
     @include header_text;
-}
-
-.news_text_top {
-}
-
-.news_text_bottom {
-
+    color: $secondary-color; /*måske farve - evt lav om til hvid igen*/
 }
