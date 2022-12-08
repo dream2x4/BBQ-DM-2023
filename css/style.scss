@@ -170,10 +170,16 @@ body {
     padding-left: 6px;
     position: relative;
 }
+/* space */
 
 .space {
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+
+.space_small {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 /* DM info */
@@ -270,4 +276,40 @@ body {
     &:hover {
         color: $octonary-color;
     }
+}
+
+/*cover*/
+.cover_news {
+    height: 40vh;
+    background-color: $primary-color;
+}
+
+.NEWS {
+    color: $septenary-color;
+    @include header_text;
+}
+
+/* Kidsque under nyheder*/
+.news_box {
+    height: 70vh;
+    background-color: white;
+}
+
+.news_textbox {
+    height: 70vh;
+    background-color: $octonary-color;
+    @include paragraph_text;
+    color: $septenary-color;
+    padding: 0 60px 0 60px;
+}
+
+.news_headline {
+    @include header_text;
+}
+
+.news_text_top {
+}
+
+.news_text_bottom {
+
 }

@@ -184,9 +184,15 @@ body {
   position: relative;
 }
 
+/* space */
 .space {
   padding-top: 5vh;
   padding-bottom: 5vh;
+}
+
+.space_small {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 
 /* DM info */
@@ -282,4 +288,39 @@ body {
 }
 .social_media_facebook_icon:hover {
   color: #707070;
+}
+
+/*cover*/
+.cover_news {
+  height: 40vh;
+  background-color: #7C1A17;
+}
+
+.NEWS {
+  color: #FFFFFF;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Kidsque under nyheder*/
+.news_box {
+  height: 70vh;
+  background-color: white;
+}
+
+.news_textbox {
+  height: 70vh;
+  background-color: #707070;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  padding: 0 60px 0 60px;
+}
+
+.news_headline {
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }/*# sourceMappingURL=style.css.map */
