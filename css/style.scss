@@ -170,10 +170,16 @@ body {
     padding-left: 6px;
     position: relative;
 }
+/* space */
 
 .space {
     padding-top: 5vh;
     padding-bottom: 5vh;
+}
+
+.space_small {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 /* DM info */
@@ -270,4 +276,58 @@ body {
     &:hover {
         color: $octonary-color;
     }
+}
+
+/*cover*/
+.cover_news {
+    height: 40vh;
+    background-image: url(/img/photos/kød.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
+}
+
+.NEWS {
+    color: $septenary-color;
+    @include header_text;
+}
+
+/* Kidsque under nyheder*/
+.news_box {
+    height: 70vh;
+    background-color: white;
+    background-image: url(/img/photos/thumbnail_newskidsq_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Amerikanske biler under nyheder*/
+.news_box2 {
+    height: 70vh;
+    background-color: white;
+    background-image: url(/img/photos/American\ cars.png);
+    background-position: 50%, 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Linedance under nyheder*/
+.news_box3 {
+    height: 70vh;
+    background-color: white;
+    background-image: url(/img/photos/bootz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
+}
+
+.news_textbox {
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.356);
+    @include paragraph_text;
+    color: $septenary-color;
+    padding: 0 60px 0 60px;
+}
+
+.news_headline {
+    @include header_text;
+    color: $secondary-color; /*måske farve - evt lav om til hvid igen*/
 }
