@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Octin font-family */
 @import url("https://use.typekit.net/xpj8oec.css");
 /* Raleway font-family */
@@ -293,7 +294,10 @@ body {
 /*cover*/
 .cover_news {
   height: 40vh;
-  background-color: #7C1A17;
+  background-image: url(/img/photos/kød.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%, 70%;
 }
 
 .NEWS {
@@ -307,11 +311,34 @@ body {
 .news_box {
   height: 70vh;
   background-color: white;
+  background-image: url(/img/photos/thumbnail_newskidsq_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Amerikanske biler under nyheder*/
+.news_box2 {
+  height: 70vh;
+  background-color: white;
+  background-image: url(/img/photos/American\ cars.png);
+  background-position: 50%, 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Linedance under nyheder*/
+.news_box3 {
+  height: 70vh;
+  background-color: white;
+  background-image: url(/img/photos/bootz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%, 70%;
 }
 
 .news_textbox {
   height: 70vh;
-  background-color: #707070;
+  background-color: rgba(0, 0, 0, 0.356);
   font-family: raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -323,4 +350,5 @@ body {
   font-family: octin-college, sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #D97904; /*måske farve - evt lav om til hvid igen*/
 }/*# sourceMappingURL=style.css.map */
