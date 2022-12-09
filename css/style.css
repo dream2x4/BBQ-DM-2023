@@ -357,7 +357,7 @@ body {
 }
 
 /*Om os side*/
-.cover_aboutus {
+.cover_aboutbbq {
   height: 40vh;
   background-image: url(/img/photos/kød2.png);
   background-size: cover;
@@ -365,7 +365,7 @@ body {
   background-position: 30%, 70%;
 }
 
-.aboutus {
+.aboutbbq {
   color: #FFFFFF;
   font-family: octin-college, sans-serif;
   font-weight: 400;
@@ -373,29 +373,90 @@ body {
   text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
-.aboutus_box {
+.aboutbbq_box {
   height: 150vh;
   background-color: rgba(0, 0, 0, 0.401);
 }
 
-.aboutus_headline1 {
+.aboutbbq_headline1 {
   color: #FFFFFF;
   line-height: 100px;
 }
 
-.aboutus_paragraf1 {
+.aboutbbq_paragraf1 {
   color: #FFFFFF;
   font-size: 20px;
   line-height: 45px;
 }
 
-.aboutus_headline2 {
+.aboutbbq_headline2 {
   color: #FFFFFF;
   line-height: 100px;
 }
 
-.aboutus_paragraf2 {
+.aboutbbq_paragraf2 {
   color: #FFFFFF;
   font-size: 20px;
   line-height: 45px;
+}
+
+/*tilmelding side*/
+.cover_signup {
+  height: 40vh;
+  background-image: url(/img/photos/kød3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%, 70%;
+}
+
+.sign_up {
+  color: #FFFFFF;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.sign_up_box {
+  height: 60vh;
+  background-color: #1D1A1A;
+}
+
+.outer_btn_box {
+  height: 60vh;
+  background-color: #1D1A1A;
+}
+
+.btn_box {
+  height: 10vh;
+}
+
+.sign_up_textbox {
+  height: 60vh;
+  background-color: #FFFFFF;
+}
+
+.sign_up_box2 {
+  height: 60vh;
+  background-color: #1D1A1A;
+}
+
+.sign_up_textbox1 {
+  height: 60vh;
+  background-color: #FFFFFF;
+}
+
+.sign_up_box3 {
+  height: 60vh;
+  background-color: #1D1A1A;
+}
+
+.sign_up_textbox2 {
+  height: 60vh;
+  background-color: #FFFFFF;
+}
+
+.sign_up_box4 {
+  height: 60vh;
+  background-color: #1D1A1A;
 }/*# sourceMappingURL=style.css.map */
