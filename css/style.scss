@@ -335,6 +335,13 @@ body {
     color: $secondary-color; /*måske farve - evt lav om til hvid igen*/
 }
 
+/*info7 Program oversigt*/
+
+.info_back_box {
+    height: 60vh;
+    background-color: rgba(0, 0, 0, 0.401);
+}
+
 /*Om os side*/
 .cover_aboutus {
     height: 40vh;
