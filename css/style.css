@@ -57,6 +57,7 @@ footer_links {
   font-weight: 600;
 }
 
+/* containor */
 /* Buttons */
 .btn {
   font-size: 45px;
@@ -354,6 +355,35 @@ body {
   font-weight: 400;
   font-style: normal;
   color: #D97904; /*måske farve - evt lav om til hvid igen*/
+}
+
+/*info7 Program oversigt*/
+.info_back_box {
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.401);
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content_info {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }
 
 /*Om os side*/
