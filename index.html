@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="countdown.js"></script>
   </head>
   <body>
 
@@ -57,9 +58,19 @@
     <!-- Countdown -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-12 countdown-container"></div>
+        <div class="col-12 countdown-container d-flex flex-column align-items-center justify-content-center">
+          <h1 class="NEWS">Nedtælling </h1>
+          <h1 class="NEWS">DM Amerikansk BBQ </h1>
+
+          <h1 id="countdown" class="NEWS">00 : 00 : 00</h1>
+          <p class="paragraph">DAYS : HOURS : MINUTES</p>
+        </div>
+        
+        </p>
       </div>
     </div>
+
+
 
     <!-- Info -->
     <div class="container-fluid">
