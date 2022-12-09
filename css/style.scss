@@ -331,3 +331,17 @@ body {
     @include header_text;
     color: $secondary-color; /*måske farve - evt lav om til hvid igen*/
 }
+
+/*Om os side*/
+.cover_aboutus {
+    height: 40vh;
+    background-image: url(/img/photos/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
+}
+
+.aboutus {
+    color: $septenary-color;
+    @include header_text;
+}    
