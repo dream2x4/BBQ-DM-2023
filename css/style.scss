@@ -346,6 +346,15 @@ body {
     background-color: rgba(0, 0, 0, 0.401);
 }
 
+/*cover*/
+.cover_info {
+    height: 40vh;
+    background-image: url(/img/photos/img\ to\ info\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
+}
+
 
 .collapsible {
     background-color: #777;
