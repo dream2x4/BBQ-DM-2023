@@ -35,6 +35,11 @@
     font-weight: 600;
 }
 
+.sponsors_header {
+    @include header_text;
+    color: $septenary-color;
+}
+
 /* Buttons */
 
 .btn {
@@ -95,6 +100,16 @@ body {
     &:focus {
         color: $septenary-color;
     }
+}
+
+/* flags */
+
+.dk_flag {
+    margin-right: 8px;
+}
+
+.en_flag {
+    margin-right: 16px;
 }
 
 /* Searchbar toggler */
@@ -213,6 +228,13 @@ body {
 .dm_info_btn {
     height: 100%;
     padding: 0 5%;
+}
+
+/* Sponsor-box*/
+.sponsor-box {
+    background-color: $quanternary-color;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 /* Footer */

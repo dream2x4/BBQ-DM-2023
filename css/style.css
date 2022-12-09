@@ -57,6 +57,13 @@ footer_links {
   font-weight: 600;
 }
 
+.sponsors_header {
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+}
+
 /* Buttons */
 .btn {
   font-size: 45px;
@@ -113,6 +120,15 @@ body {
 }
 .nav-link:focus {
   color: #FFFFFF;
+}
+
+/* flags */
+.dk_flag {
+  margin-right: 8px;
+}
+
+.en_flag {
+  margin-right: 16px;
 }
 
 /* Searchbar toggler */
@@ -226,6 +242,13 @@ body {
 .dm_info_btn {
   height: 100%;
   padding: 0 5%;
+}
+
+/* Sponsor-box*/
+.sponsor-box {
+  background-color: #1D1A1A;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 /* Footer */
