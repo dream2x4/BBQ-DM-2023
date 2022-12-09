@@ -307,6 +307,7 @@ body {
   font-family: octin-college, sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 /* Kidsque under nyheder*/
@@ -358,7 +359,7 @@ body {
 /*Om os side*/
 .cover_aboutus {
   height: 40vh;
-  background-image: url(/img/photos/);
+  background-image: url(/img/photos/kød2.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30%, 70%;
@@ -369,4 +370,10 @@ body {
   font-family: octin-college, sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.aboutus_box {
+  height: 150vh;
+  background-color: rgba(0, 0, 0, 0.401);
 }/*# sourceMappingURL=style.css.map */

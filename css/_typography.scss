@@ -29,3 +29,7 @@ $font-sizes: (
     p: 25px,
     footer_links: 25px,
 );
+
+@mixin title_textshadow {
+text-shadow: 2px 2px rgb(0, 0, 0);
+}
