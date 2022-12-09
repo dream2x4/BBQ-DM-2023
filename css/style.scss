@@ -35,6 +35,10 @@
     font-weight: 600;
 }
 
+.sponsors_header {
+    @include header_text;
+    color: $septenary-color;
+}
 /* containor */
 
 
@@ -99,6 +103,16 @@ body {
     &:focus {
         color: $septenary-color;
     }
+}
+
+/* flags */
+
+.dk_flag {
+    margin-right: 8px;
+}
+
+.en_flag {
+    margin-right: 16px;
 }
 
 /* Searchbar toggler */
@@ -217,6 +231,13 @@ body {
 .dm_info_btn {
     height: 100%;
     padding: 0 5%;
+}
+
+/* Sponsor-box*/
+.sponsor-box {
+    background-color: $quanternary-color;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 /* Footer */
@@ -344,6 +365,15 @@ body {
 .info_back_box {
     height: 60vh;
     background-color: rgba(0, 0, 0, 0.401);
+}
+
+/*cover*/
+.cover_info {
+    height: 40vh;
+    background-image: url(/img/photos/img\ to\ info\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
 }
 
 
