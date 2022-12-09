@@ -32,7 +32,7 @@
 
 .text-highlight {
     color: $secondary-color;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* Buttons */
@@ -201,11 +201,13 @@ body {
 .info_ready {
     height: 50%;
     border-bottom: 2px solid $septenary-color;
+    text-shadow: 0 0 12px #000000;
 }
 
 .info_new {
     height: 50%;
     border-top: 2px solid $septenary-color;
+    text-shadow: 0 0 12px #000000;
 }
 
 .dm_info_btn {
