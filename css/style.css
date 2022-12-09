@@ -376,4 +376,26 @@ body {
 .aboutus_box {
   height: 150vh;
   background-color: rgba(0, 0, 0, 0.401);
+}
+
+.aboutus_headline1 {
+  color: #FFFFFF;
+  line-height: 100px;
+}
+
+.aboutus_paragraf1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 45px;
+}
+
+.aboutus_headline2 {
+  color: #FFFFFF;
+  line-height: 100px;
+}
+
+.aboutus_paragraf2 {
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 45px;
 }/*# sourceMappingURL=style.css.map */
