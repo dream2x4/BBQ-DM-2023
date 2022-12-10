@@ -44,12 +44,37 @@ footer_links {
   border-bottom: 4px solid #D97904;
 }
 
+.header_countdown {
+  color: #FFFFFF;
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
+.countdown_number {
+  color: #FFFFFF;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+}
+
 .paragraph {
   color: #FFFFFF;
   text-align: center;
   font-family: raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.paragraph_countdown {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 .text-highlight {

@@ -24,10 +24,29 @@
     border-bottom: 4px solid $secondary-color;
 }
 
+.header_countdown {
+    color: $septenary-color;
+    @include style_text;
+    font-size: 45px;
+}
+
+.countdown_number {
+    color: $septenary-color;
+    @include header_text;
+    font-size: 120px; 
+}
+
 .paragraph {
     color: $septenary-color;
     text-align: center;
     @include paragraph_text;
+}
+
+.paragraph_countdown {
+    color: $septenary-color;
+    text-align: center;
+    @include paragraph_text;
+    font-size: 20px;
 }
 
 .text-highlight {
