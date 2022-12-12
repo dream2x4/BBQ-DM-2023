@@ -579,8 +579,21 @@ body {
 }
 
 .red_box {
+  padding-left: 12px;
+}
+
+.sign_up_btn {
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F9EACB;
+  text-decoration: none;
   background-color: #7C1A17;
-  color: #FFFFFF;
+  font-size: 25px;
+  padding: 1% 5% 1% 5%;
+}
+.sign_up_btn:hover {
+  color: #F9EACB;
 }
 
 .iner_tilmeldingbox {
