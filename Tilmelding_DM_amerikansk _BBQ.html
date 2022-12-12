@@ -56,25 +56,83 @@
 
 
 
-
+<!-- tilmelding oversigt-->
       <div class="container-fluid">
         <div class="row d-flex align-ite justify-content-center">
           <div class="col-11 aboutbbq_box">
            <h1 class="NEWS">Information om konkurrence </h1>
-          </div>
+           <div class="space_small"></div>
+           <p class="paragraph_info">Deltager du som hold er der ikke nogen begrænsing på i forhold til antalet man må være på holdet.  
+            Du er også velkommen til at deltage i konkurrencen som solo mand.</p>
+
+           <p class="paragraph_info">Konkurrencen vil blive bedømt af professionelle BBQ dommer. 
+            Bedømmelsen dommes ud fra bid, balance af smage og præsentation af anretning.</p>
+
+           <p class="paragraph_info">Konkurrencen afholdes over hele weekenden ind til søndag d. 4.</p>
+           <div class="space_small"></div>
+
+
+
+<!--Collapsibles-->
+
+<button type="button" class="collapsible"> <p class="NEWS">Regler</p> </button>
+<div class="content_info">
+  <p>Det er gratis for alle der ønsker at se med på konkurrencerne. Flere af aktiviterne er også gratis!</p>
+</div>
+
+<div class="space_small"></div>
+
+<button type="button" class="collapsible"> <p class="NEWS">Ny til BBq?</p> </button>
+<div class="content_info">
+  <p>Der kommer at være en eller flere mad-vogne igennem alle dagene, og efter konkurrencerne får man lov at spise fra konkurrenterne.</p>
+</div>
+
+<div class="space_small"></div>
+
+
+<div class="space"></div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<!--Collapsibles end-->
+
+<!-- tilmelsing box -->
+
+<div class="container-6 d-flex text-center flex-column align-items-center justify-content-center">
+    <div class="col-6 tilmeldingbox">
+        <div class="space_small"></div>
+        <h1 class="NEWS">Tilmeld dig her</h1>
+        <div class="space_small"></div>
+        <form>
+            <label for="fname">Navn:</label><br>
+            <input type="text" id="fname" name="fname" value="John">
+            <label for="lname">Efternavn:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe">
+          </form>
+    </div>
+</div>
+    
+<!-- tilmelsing box -->
+
+
+        </div>
         </div>  
       </div>
-
-      <div class="container">
-        <div class="row container_info_back_box">
-        
-          <div class="col info_back_box">
-            <div class="space_small"></div>
-            <div class="col"> <p class="paragraph">Fredag</p></div>
-            <div class="space_small"></div>
-
-          </div>
-
+<!-- tilmelding oversigt end-->
 
     
  <!-- Footer -->

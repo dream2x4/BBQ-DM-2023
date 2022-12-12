@@ -558,4 +558,9 @@ body {
 .sign_up_box4 {
   height: 60vh;
   background-color: #1D1A1A;
+}
+
+/*tilmelding til DM i amerikansk BBQ*/
+.tilmeldingbox {
+  background-color: #707070;
 }/*# sourceMappingURL=style.css.map */
