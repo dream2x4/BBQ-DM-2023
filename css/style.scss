@@ -612,7 +612,24 @@ body {
 
   .cover_info_kids_Q{
     height: 40vh;
-    background-image: url(/img/photos/kids_q_img.jpg);
+    background-image: url(/img/photos/thumbnail_newskidsq_img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
+  }
+
+
+  .cover_info_frivillige{
+    height: 40vh;
+    background-image: url(/img/photos/sign-up_volunteer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
+  }
+
+  .cover_info_dommer{
+    height: 40vh;
+    background-image: url(/img/photos/sign-up_judge.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30%, 70%;
