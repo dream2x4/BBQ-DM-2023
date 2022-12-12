@@ -75,7 +75,7 @@
 
 <!--Collapsibles-->
 
-<button type="button" class="collapsible"> <p class="NEWS">Regler</p> </button>
+<button type="button" class="collapsible_tilmelding"> <p class="NEWS">Regler</p> </button>
 <div class="content_info">
   <p>Det er gratis for alle der ønsker at se med på konkurrencerne. Flere af aktiviterne er også gratis!</p>
 </div>
@@ -120,31 +120,33 @@ for (i = 0; i < coll.length; i++) {
         <div class="">
             <form class="iner_tilmeldingbox">
                 <label for="fname">NAVN:</label><br>
-                <input type="text" id="fname" name="fname" value="John"  size="80"><br>
+                <input type="text" id="fname" name="fname" value="John"  style="width: 100%;"><br>
                 <label for="lname">Efternavn:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe" size="80"><br>
+                <input type="text" id="lname" name="lname" value="Doe" style="width: 100%;"><br>
                 <label for="fname">BY:</label><br>
-                <input type="text" id="fname" name="fname" value="" size="36">
-                <input type="text" id="lname" name="lname" value="" size="15">
-                <input type="text" id="lname" name="lname" value="" size="15"><br>
+                <input type="text" id="fname" name="fname" value="" style="width: 50%;">
+                <input type="text" id="lname" name="lname" value="" style="width: 24%;">
+                <input type="text" id="lname" name="lname" value="" style="width: 24%;"><br>
                 <div class="space_small"></div>
                 <label for="fname">EMAIL:</label><br>
-                <input type="text" id="fname" name="fname" value="" size="80"><br>
+                <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
                 <label for="lname">TELEFON NUMMER:</label><br>
-                <input type="text" id="lname" name="lname" value="" size="80"><br>
+                <input type="text" id="lname" name="lname" value="" style="width: 100%;"><br>
                 <label for="fname">KSBS NUMMER:</label><br>
-                <input type="text" id="fname" name="fname" value="" size="80"><br>
+                <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
                 <label for="lname">TIMES JUDGED:</label><br>
-                <input type="text" id="lname" name="lname" value="" size="80">
+                <input type="text" id="lname" name="lname" value="" style="width: 100%;">
             <div class="space_small"></div>
                 <label for="fname" style="padding-bottom: 4px;">Jeg er også certificeret hold kaptajn:</label><br>
-                <input type="text" id="fname" name="fname" value="" size="1"><label for="fname" style="padding-left: 7px;">JA</label>
-            <div class="space_small"></div>
+                
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
+  <label for="vehicle3"> JA</label><br>
             <div class="space_small"></div>
                 <label for="fname" style="padding-bottom: 4px;" >KØN:</label><br>
-                <input type="text" id="fname" name="fname" value="" size="1"><label for="fname" style="padding-left: 7px;">MAND</label> <br>
-            <div class="space_small"></div>
-                <input type="text" id="fname" name="fname" value="" size="1"><label for="fname" style="padding-left: 7px;">KVIND</label>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
+                <label for="fname" style="padding-left: 7px;">MAND</label> <br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
+                <label for="fname" style="padding-left: 7px;">KVIND</label>
             </form>
     </div>
         <div class="space"></div>
