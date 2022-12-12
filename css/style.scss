@@ -417,7 +417,7 @@ body {
 
 
 .collapsible {
-    background-color: #777;
+    background-color: $quanternary-color;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -429,7 +429,8 @@ body {
   }
   
   .active, .collapsible:hover {
-    background-color: #555;
+    background-color: $quanternary-color;
+    
   }
   
   .content_info {
@@ -545,6 +546,59 @@ body {
 
 /*tilmelding til DM i amerikansk BBQ*/
 
-.tilmeldingbox {
-    background-color: $octonary-color;
+
+.tilmeldingbox0{
+    display: flex;
+    justify-content: center;
 }
+
+.tilmeldingbox {
+    background-color:$quinary-color;
+    color: #f1f1f1;
+}
+
+.red_box{
+    padding-left: 12px;
+}
+
+.sign_up_btn{
+    @include style_text;
+    color: $teriary-color;
+    text-decoration: none;
+    background-color: $primary-color;
+    font-size: 25px;
+    padding: 1% 5% 1% 5%;
+    
+    &:hover{
+        color: $teriary-color;
+    }
+}
+
+.iner_tilmeldingbox{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.collapsible_tilmelding {
+    background-color: $quinary-color;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color:$quinary-color;
+    color: $senary-color;
+  }
+  
+  .content_info {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }

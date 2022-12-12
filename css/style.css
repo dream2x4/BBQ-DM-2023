@@ -445,7 +445,7 @@ body {
 }
 
 .collapsible {
-  background-color: #777;
+  background-color: #1D1A1A;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -457,7 +457,7 @@ body {
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #1D1A1A;
 }
 
 .content_info {
@@ -572,6 +572,59 @@ body {
 }
 
 /*tilmelding til DM i amerikansk BBQ*/
+.tilmeldingbox0 {
+  display: flex;
+  justify-content: center;
+}
+
 .tilmeldingbox {
-  background-color: #707070;
+  background-color: #262424;
+  color: #f1f1f1;
+}
+
+.red_box {
+  padding-left: 12px;
+}
+
+.sign_up_btn {
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #F9EACB;
+  text-decoration: none;
+  background-color: #7C1A17;
+  font-size: 25px;
+  padding: 1% 5% 1% 5%;
+}
+.sign_up_btn:hover {
+  color: #F9EACB;
+}
+
+.iner_tilmeldingbox {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.collapsible_tilmelding {
+  background-color: #262424;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #262424;
+  color: #2C2A29;
+}
+
+.content_info {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
 }/*# sourceMappingURL=style.css.map */
