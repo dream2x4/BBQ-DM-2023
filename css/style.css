@@ -563,4 +563,9 @@ body {
 /*tilmelding til DM i amerikansk BBQ*/
 .tilmeldingbox {
   background-color: #707070;
+}
+
+.red_box {
+  background-color: #7C1A17;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
