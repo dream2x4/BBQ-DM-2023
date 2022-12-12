@@ -65,7 +65,7 @@ footer_links {
   font-family: octin-college, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 45px;
+  font-size: 55px;
 }
 
 .paragraph {
@@ -135,6 +135,8 @@ body {
   background-color: #1D1A1A;
   box-shadow: 0 0 16px #000000;
   width: 100%;
+  z-index: 2;
+  position: fixed;
 }
 
 .navbar-brand {
@@ -512,10 +514,10 @@ body {
 /*tilmelding side*/
 .cover_sign_up {
   height: 40vh;
-  background-image: url(/img/photos/kød3.png);
+  background-image: url(/img/photos/kød3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 30%, 70%;
+  background-position: 50%, 50%;
 }
 
 .sign_up {
@@ -527,43 +529,46 @@ body {
 }
 
 .sign_up_box {
-  height: 60vh;
+  height: 65vh;
   background-color: #1D1A1A;
 }
 
 .outer_btn_box {
-  height: 60vh;
+  height: 65vh;
   background-color: #1D1A1A;
 }
 
-.sign_up_textbox {
-  height: 60vh;
-  background-color: #FFFFFF;
+.signup_textbox {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-.sign_up_box2 {
-  height: 60vh;
-  background-color: #1D1A1A;
+.sign_up_dm_img {
+  background-image: url(/img/photos/sign-up_dm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
 }
 
-.sign_up_textbox1 {
-  height: 60vh;
-  background-color: #FFFFFF;
+.sign_up_judge_img {
+  background-image: url(/img/photos/sign-up_judge.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
 }
 
-.sign_up_box3 {
-  height: 60vh;
-  background-color: #1D1A1A;
+.sign_up_volunteer_img {
+  background-image: url(/img/photos/sign-up_volunteer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
 }
 
-.sign_up_textbox2 {
-  height: 60vh;
-  background-color: #FFFFFF;
-}
-
-.sign_up_box4 {
-  height: 60vh;
-  background-color: #1D1A1A;
+.sign_up_kid_img {
+  background-image: url(/img/photos/sign-up_kid.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
 }
 
 /*tilmelding til DM i amerikansk BBQ*/
