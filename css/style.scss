@@ -558,8 +558,20 @@ body {
 }
 
 .red_box{
+    padding-left: 12px;
+}
+
+.sign_up_btn{
+    @include style_text;
+    color: $teriary-color;
+    text-decoration: none;
     background-color: $primary-color;
-    color: $septenary-color;
+    font-size: 25px;
+    padding: 1% 5% 1% 5%;
+    
+    &:hover{
+        color: $teriary-color;
+    }
 }
 
 .iner_tilmeldingbox{
