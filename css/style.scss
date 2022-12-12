@@ -36,6 +36,12 @@
     font-size: 120px; 
 }
 
+.sign-up_header {
+    color: $secondary-color;
+    @include header_text;
+    font-size: 45px;
+}
+
 .paragraph {
     color: $septenary-color;
     text-align: center;
@@ -134,10 +140,12 @@ body {
 
 .dk_flag {
     margin-right: 8px;
+    text-decoration: none;
 }
 
 .en_flag {
     margin-right: 16px;
+    text-decoration: none;
 }
 
 /* Searchbar toggler */
@@ -476,7 +484,7 @@ body {
 
 /*tilmelding side*/
 
-.cover_signup {
+.cover_sign_up {
     height: 40vh;
     background-image: url(/img/photos/kød3.png);
     background-size: cover;
@@ -500,8 +508,7 @@ body {
     background-color: $quanternary-color;
 }
 
-.btn_box {
-    height: 10vh;
+.signup_textbox {
 }
 
 .sign_up_textbox {
