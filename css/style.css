@@ -60,6 +60,14 @@ footer_links {
   font-size: 120px;
 }
 
+.sign-up_header {
+  color: #D97904;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+}
+
 .paragraph {
   color: #FFFFFF;
   text-align: center;
@@ -159,10 +167,12 @@ body {
 /* flags */
 .dk_flag {
   margin-right: 8px;
+  text-decoration: none;
 }
 
 .en_flag {
   margin-right: 16px;
+  text-decoration: none;
 }
 
 /* Searchbar toggler */
@@ -500,7 +510,7 @@ body {
 }
 
 /*tilmelding side*/
-.cover_signup {
+.cover_sign_up {
   height: 40vh;
   background-image: url(/img/photos/kød3.png);
   background-size: cover;
@@ -524,10 +534,6 @@ body {
 .outer_btn_box {
   height: 60vh;
   background-color: #1D1A1A;
-}
-
-.btn_box {
-  height: 10vh;
 }
 
 .sign_up_textbox {
