@@ -68,6 +68,14 @@ footer_links {
   font-style: normal;
 }
 
+.paragraph_info {
+  color: #FFFFFF;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
 .paragraph_countdown {
   color: #FFFFFF;
   text-align: center;
@@ -220,6 +228,10 @@ body {
   position: absolute;
   width: 60%;
   height: 60%;
+}
+
+.box_img {
+  opacity: 75%;
 }
 
 .info-news {
@@ -390,7 +402,7 @@ body {
 
 .news_textbox {
   height: 70vh;
-  background-color: rgba(0, 0, 0, 0.356);
+  background-color: rgba(0, 0, 0, 0.5);
   font-family: raleway, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -461,8 +473,8 @@ body {
 }
 
 .aboutbbq_box {
-  height: 150vh;
-  background-color: rgba(0, 0, 0, 0.401);
+  background-color: rgba(0, 0, 0, 0.4588235294);
+  padding: 24px;
 }
 
 .aboutbbq_headline1 {

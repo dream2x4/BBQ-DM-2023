@@ -42,6 +42,12 @@
     @include paragraph_text;
 }
 
+.paragraph_info {
+    color: $septenary-color;
+    @include paragraph_text;
+    font-size: 20px;
+}
+
 .paragraph_countdown {
     color: $septenary-color;
     text-align: center;
@@ -201,6 +207,10 @@ body {
     position: absolute;
     width: 60%;
     height: 60%;
+}
+
+.box_img {
+    opacity: 75%;
 }
 
 .info-news {
@@ -368,7 +378,7 @@ body {
 
 .news_textbox {
     height: 70vh;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.5);
     @include paragraph_text;
     color: $septenary-color;
     padding: 0 60px 0 60px;
@@ -438,8 +448,8 @@ body {
 }    
 
 .aboutbbq_box {
-    height: 150vh;
-    background-color: rgba(0, 0, 0, 0.401);
+    background-color: #00000075;
+    padding: 24px;
 }
 
 .aboutbbq_headline1 {
