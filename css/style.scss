@@ -558,6 +558,8 @@ body {
 }
 
 .red_box{
+    display: flex;
+    justify-content: center;
     padding-left: 12px;
 }
 
@@ -601,4 +603,17 @@ body {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+  }
+  /*tilmelding til DM i amerikansk BBQ end*/
+
+
+
+/*tilmelding til DM Kids q*/
+
+  .cover_info_kids_Q{
+    height: 40vh;
+    background-image: url(/img/photos/kids_q_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30%, 70%;
   }
