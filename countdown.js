@@ -1,12 +1,13 @@
 let countDownDate = new Date ("2023-05-12"); /* counting down to this date 12-05-2023 (DK date )*/
-let t = setInterval(timer,1000); /* this shows that the computer counts in millisecods. 1000 millisecods = 1 secods */
+let t = setInterval(timer,1000); /* this shows that the computer counts in millisecods. 1000 millisecods = 1 secods 
+                                    and updates countdowb*/
 
 function timer (){
     /* function that displays time that is left */
     var now = new Date().getTime(); 
     var timeleft = countDownDate - now; /* this makes the computer know from the day you turn it on how many time are left */
         
-    // Calculating the days, hours, minutes and seconds left
+    // Calculating the days, hours, minutes left
     var days = Math.floor(timeleft / (1000 * 60 * 60 * 24));
     var hours = Math.floor((timeleft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
