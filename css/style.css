@@ -36,6 +36,14 @@ footer_links {
   font-style: normal;
 }
 
+.header2 {
+  color: #FFFFFF;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
 .header_underline {
   color: #D97904;
   font-family: octin-college, sans-serif;
@@ -82,6 +90,15 @@ footer_links {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
+}
+
+.paragraph_info2 {
+  color: #1D1A1A;
+  font-family: raleway, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 12px 0;
 }
 
 .paragraph_countdown {
@@ -327,6 +344,18 @@ body {
   color: #FFFFFF;
 }
 
+.footer_links2 {
+  color: #b4b4b4;
+  text-decoration: none;
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+.footer_links2:hover {
+  color: #b4b4b4;
+}
+
 .copyright_box {
   background-color: #2C2A29;
 }
@@ -373,7 +402,7 @@ body {
 /*cover*/
 .cover_news {
   height: 40vh;
-  background-image: url(/img/photos/kød.png);
+  background-image: url(/img/photos/kød.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30%, 70%;
@@ -385,6 +414,7 @@ body {
   font-weight: 400;
   font-style: normal;
   text-shadow: 2px 2px rgb(0, 0, 0);
+  margin: 0;
 }
 
 /* Kidsque under nyheder*/
@@ -442,7 +472,7 @@ body {
 /*cover*/
 .cover_info {
   height: 40vh;
-  background-image: url(/img/photos/img\ to\ info\ 2.png);
+  background-image: url(/img/photos/info_cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30%, 70%;
@@ -465,7 +495,7 @@ body {
 }
 
 .content_info {
-  padding: 0 18px;
+  padding: 0 12px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
@@ -474,7 +504,7 @@ body {
 /*Om os side*/
 .cover_aboutbbq {
   height: 40vh;
-  background-image: url(/img/photos/kød2.png);
+  background-image: url(/img/photos/about_bbq_cover.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 30%, 70%;

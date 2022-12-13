@@ -18,6 +18,12 @@
     @include header_text;
 }
 
+.header2 {
+    color: $septenary-color;
+    @include header_text;
+    margin: 0;
+}
+
 .header_underline {
     color: $secondary-color;
     @include header_text;
@@ -52,6 +58,13 @@
     color: $septenary-color;
     @include paragraph_text;
     font-size: 20px;
+}
+
+.paragraph_info2 {
+    color: $quanternary-color;
+    @include paragraph_text;
+    font-size: 20px;
+    margin: 12px 0;
 }
 
 .paragraph_countdown {
@@ -306,6 +319,17 @@ height: 67.5px;
     }
 }
 
+.footer_links2 {
+    color: #b4b4b4;
+    text-decoration: none;
+    @include style_text;
+    font-size: 25px;
+    
+    &:hover {
+        color: #b4b4b4;
+    }
+}
+
 .copyright_box {
     background-color: $senary-color;
 }
@@ -352,7 +376,7 @@ height: 67.5px;
 /*cover*/
 .cover_news {
     height: 40vh;
-    background-image: url(/img/photos/kød.png);
+    background-image: url(/img/photos/kød.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30%, 70%;
@@ -362,6 +386,7 @@ height: 67.5px;
     color: $septenary-color;
     @include header_text;
     text-shadow: 2px 2px rgb(0, 0, 0);
+    margin: 0;
 }
 
 /* Kidsque under nyheder*/
@@ -414,7 +439,7 @@ height: 67.5px;
 /*cover*/
 .cover_info {
     height: 40vh;
-    background-image: url(/img/photos/img\ to\ info\ 2.png);
+    background-image: url(/img/photos/info_cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30%, 70%;
@@ -431,19 +456,18 @@ height: 67.5px;
     text-align: left;
     outline: none;
     font-size: 15px;
-  }
+}
   
-  .active, .collapsible:hover {
-    background-color: $quanternary-color;
-    
-  }
+.active, .collapsible:hover {
+    background-color: $quanternary-color;   
+}
   
-  .content_info {
-    padding: 0 18px;
+.content_info {
+    padding: 0 12px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
-  }
+}
 
 
 
@@ -451,7 +475,7 @@ height: 67.5px;
 /*Om os side*/
 .cover_aboutbbq {
     height: 40vh;
-    background-image: url(/img/photos/kød2.png);
+    background-image: url(/img/photos/about_bbq_cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 30%, 70%;

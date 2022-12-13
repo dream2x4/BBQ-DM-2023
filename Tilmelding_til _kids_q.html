@@ -47,48 +47,47 @@
     </div>
   </nav>
 
-      <!--Side: Nyheder-->
-      <div class="cover_info_kids_Q  d-flex align-text-center align-items-center justify-content-center">
-        <h1 class="NEWS">Tilmelding til kids q</h1>
-      </div>
+  <div class="nav_space"></div>
 
-      <div class="space_small"></div>
-
-
+    <!--Side: Nyheder-->
+    <div class="cover_info_kids_Q  d-flex align-text-center align-items-center justify-content-center">
+      <h1 class="NEWS">Tilmelding til kids q</h1>
+    </div>
 
 <!-- tilmelding oversigt-->
-      <div class="container-fluid">
-        <div class="row d-flex align-ite justify-content-center">
-          <div class="col-11 aboutbbq_box">
-           <h1 class="NEWS">Information om konkurrence </h1>
-           <div class="space_small"></div>
-           <p class="paragraph_info">Deltager du som hold er der ikke nogen begrænsing på i forhold til antalet man må være på holdet.  
-            Du er også velkommen til at deltage i konkurrencen som solo mand.</p>
+<div class="container-fluid">
+  <div class="row d-flex align-ite justify-content-center">
+    <div class="col-11 aboutbbq_box">
+     <h1 class="header">Information om konkurrencen </h1>
 
-           <p class="paragraph_info">Konkurrencen vil blive bedømt af professionelle BBQ dommer. 
-            Bedømmelsen dommes ud fra bid, balance af smage og præsentation af anretning.</p>
+     <p class="paragraph_info">I år har vi en ny konkurence på programmet! Nemlig vores kids que, hvor alle de unge talenter vil konkurrere i American BBQ. Der skal laves pølser og burger.
+      Det vil koste 50kr. Pr. Barn og så vil der være ingredienser og grill til rådighed. 
+      Så kom og udfold dine talenter og konkurer om en mega fed præmie!</p>
 
-           <p class="paragraph_info">Konkurrencen afholdes over hele weekenden ind til søndag d. 4.</p>
-           <div class="space_small"></div>
+     <p class="paragraph_info">Deltager du som hold er der ikke nogen begrænsing på i forhold til antalet man må være på holdet.  
+      Du er også velkommen til at deltage i konkurrencen som solo mand.</p>
+
+     <p class="paragraph_info">Konkurrencen vil blive bedømt af professionelle BBQ dommer. 
+      Bedømmelsen dommes ud fra bid, balance af smage og præsentation af anretning.</p>
+
+     <p class="paragraph_info">Konkurrencen afholdes over hele weekenden ind til søndag d. 4.</p>
+     <div class="space_small"></div>
 
 
 
 <!--Collapsibles-->
 
-<button type="button" class="collapsible"> <p class="NEWS">Regler</p> </button>
+<button type="button" class="collapsible"> <p class="NEWS">Adgang</p> </button>
 <div class="content_info">
-  <p>Det er gratis for alle der ønsker at se med på konkurrencerne. Flere af aktiviterne er også gratis!</p>
+<p class="paragraph_info2">Det koster 50 kr. pr. barn at deltage i konkurencen.</p>
 </div>
 
 <div class="space_small"></div>
 
 <button type="button" class="collapsible"> <p class="NEWS">Ny til BBq?</p> </button>
 <div class="content_info">
-  <p>Der kommer at være en eller flere mad-vogne igennem alle dagene, og efter konkurrencerne får man lov at spise fra konkurrenterne.</p>
+<p class="paragraph_info2">Der kommer at være en eller flere mad-vogne igennem alle dagene, og efter konkurrencerne får man lov at spise fra konkurrenterne.</p>
 </div>
-
-<div class="space_small"></div>
-
 
 <div class="space"></div>
 
@@ -97,22 +96,21 @@ var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
+coll[i].addEventListener("click", function() {
+this.classList.toggle("active");
+var content = this.nextElementSibling;
+if (content.style.display === "block") {
+content.style.display = "none";
+} else {
+content.style.display = "block";
+}
+});
 }
 </script>
 
 <!--
-    https://www.w3schools.com/howto/howto_js_collapsible.asp
+https://www.w3schools.com/howto/howto_js_collapsible.asp
 -->
-
 
 
 <!--Collapsibles end-->
@@ -120,168 +118,171 @@ for (i = 0; i < coll.length; i++) {
 <!-- tilmelding box -->
 
 <div class="tilmeldingbox0">
-    <div class="col-6 tilmeldingbox">
-        <div class="space_small"></div>
-        <h1 class="NEWS text-center" >Tilmeld dig her</h1>
-        <div class="space_small"></div>
-        <div class="">
-            <form class="iner_tilmeldingbox">
-                <label for="fname">NAVN:</label><br>
-                <input type="text" id="fname" name="fname" value="John"  style="width: 100%;"><br>
-                <label for="lname">Efternavn:</label><br>
-                <input type="text" id="lname" name="lname" value="Doe" style="width: 100%;"><br>
-                <label for="fname">BY:</label><br>
-                <input type="text" id="fname" name="fname" value="" style="width: 50%;">
-                <input type="text" id="lname" name="lname" value="" style="width: 24%;">
-                <input type="text" id="lname" name="lname" value="" style="width: 24%;"><br>
-                <label for="fname">LAND:</label><br>
-                <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
-                <div class="space_small"></div>
-                <label for="fname">EMAIL:</label><br>
-                <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
-                <label for="lname">TELEFON NUMMER:</label><br>
-                <input type="text" id="lname" name="lname" value="" style="width: 100%;"><br>
-                <label for="fname">KSBS NUMMER:</label><br>
-                <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
-                <label for="lname">TIMES JUDGED:</label><br>
-                <input type="text" id="lname" name="lname" value="" style="width: 100%;">
-            <div class="space_small"></div>
-                <label for="fname" style="padding-bottom: 4px;">Jeg er også certificeret hold kaptajn:</label><br>
-                
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
-  <label for="vehicle3"> JA</label><br>
-            <div class="space_small"></div>
-                <label for="fname" style="padding-bottom: 4px;" >KØN:</label><br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
-                <label for="fname" style="padding-left: 7px;">MAND</label> <br>
-                <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
-                <label for="fname" style="padding-left: 7px;">KVIND</label>
-            </form>
+<div class="col-6 tilmeldingbox">
+  <div class="space_small"></div>
+  <h1 class="header2 text-center" >Tilmeld dig her</h1>
+  <div class="space_small"></div>
+  <div class="">
+      <form class="iner_tilmeldingbox">
+          <label for="fname">NAVN:</label><br>
+          <input type="text" id="fname" name="fname" value="John"  style="width: 100%;"><br>
+          <label for="lname">Efternavn:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe" style="width: 100%;"><br>
+          <label for="fname">BY:</label><br>
+          <input type="text" id="fname" name="fname" value="" style="width: 50%;">
+          <input type="text" id="lname" name="lname" value="" style="width: 24%;">
+          <input type="text" id="lname" name="lname" value="" style="width: 24%;"><br>
+          <label for="fname">LAND:</label><br>
+          <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
+          <div class="space_small"></div>
+          <label for="fname">EMAIL:</label><br>
+          <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
+          <label for="lname">TELEFON NUMMER:</label><br>
+          <input type="text" id="lname" name="lname" value="" style="width: 100%;"><br>
+          <label for="fname">KSBS NUMMER:</label><br>
+          <input type="text" id="fname" name="fname" value="" style="width: 100%;"><br>
+          <label for="lname">TIMES JUDGED:</label><br>
+          <input type="text" id="lname" name="lname" value="" style="width: 100%;">
+      <div class="space_small"></div>
+          <label for="fname" style="padding-bottom: 4px;">Jeg er også certificeret hold kaptajn:</label><br>
+          
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
+<label for="vehicle3"> JA</label><br>
+      <div class="space_small"></div>
+          <label for="fname" style="padding-bottom: 4px;" >KØN:</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
+          <label for="fname" style="padding-left: 7px;">MAND</label> <br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="JA">
+          <label for="fname" style="padding-left: 7px;">KVIND</label>
+      </form>
+
 
 
 <!--
-    https://www.w3schools.com/html/html_forms.asp?fbclid=IwAR2SkFTmHf1AYYWkyG4mMwsLSDDEdtVBcXTvWCSuHFG8-vA4G7BDUQVJeXU
-    The HTML <form> element is used to create an HTML form for user input:
-        The input filds needs to be in <form> for the all the data to sendt onwards.
-         <label> is just the name of the input.
-        some part of the style in do in html.
+https://www.w3schools.com/html/html_forms.asp?fbclid=IwAR2SkFTmHf1AYYWkyG4mMwsLSDDEdtVBcXTvWCSuHFG8-vA4G7BDUQVJeXU
+The HTML <form> element is used to create an HTML form for user input:
+  The input filds needs to be in <form> for the all the data to sendt onwards.
+   <label> is just the name of the input.
+  some part of the style in do in html.
 -->
 
 
-    </div>
-        <div class="space"></div>
-      <div class="red_box"> 
-        <a class="sign_up_btn" href="#">Tilmeld</a>
-      </div>
 
 
-
-          <div class="space"></div>
-    </div>
 </div>
-    
+  <div class="space"></div>
+<div class="red_box"> 
+  <a class="sign_up_btn" href="#">Tilmeld</a>
+</div>
+
+
+
+    <div class="space"></div>
+</div>
+</div>
+
 <!-- tilmelsing box end -->
 
 <div class="space"></div>
 
-        </div>
-        </div>  
-      </div>
+  </div>
+  </div>  
+</div>
 <!-- tilmelding oversigt end-->
 
-    <div class="space"></div>
+<div class="space"></div>
 
 
- <!-- Footer -->
-  <footer class="footer_box text-center text-lg-start">
-    <!-- Grid container -->
-    <div class="footer_inner-box container">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="footer_link_container col-3">
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="footer_links">Longhorn</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">Event</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">BBQ</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">Om os</a>
-            </li>
-          </ul>
+    <!-- Footer -->
+    <footer class="footer_box text-center text-lg-start">
+      <!-- Grid container -->
+      <div class="footer_inner-box container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="footer_link_container col-3">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="https://tbsgrillshop.dk/longhorn-bbq-2023information/" class="footer_links">Longhorn</a>
+              </li>
+              <li>
+                <a href="index.html" class="footer_links">DM 2023</a>
+              </li>
+              <li>
+                <a href="news.html" class="footer_links">Event</a>
+              </li>
+              <li>
+                <a href="about_bbq.html" class="footer_links">Om BBQ</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="footer_link_container col-3">
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="info.html" class="footer_links">Praktisk info</a>
+              </li>
+              <li>
+                <a href="info.html#schedule" class="footer_links">Program oversigt</a>
+              </li>
+              <li>
+                <a href="info.html#questions" class="footer_links">spørgsmål</a>
+              </li>
+              <li>
+                <a href="news.html" class="footer_links">Nyheder</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="footer_link_container col-3">
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="sign_up.html" class="footer_links">Tilmeld dig</a>
+              </li>
+              <li>
+                <a href="Tilmelding_DM_amerikansk _BBQ.html" class="footer_links">Som hold</a>
+              </li>
+              <li>
+                <a href="Tilmelding_som_dommer.html" class="footer_links">Dommer</a>
+              </li>
+              <li>
+                <a href="Tilmelding_som _rivillige.html" class="footer_links">Frivillig</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+          <!--Grid column-->
+          <div class="footer_link_container col-3">
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="footer_links2">Kontakt os</a>
+              </li>
+              <li>
+                <a href="" class="footer_links2">Brørup</a>
+              </li>
+              <li>
+                <a href="" class="footer_links2">lornhorn@mail.dk</a>
+              </li>
+              <li>
+                <a href="" class="footer_links2">22 40 33 10</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
         </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="footer_link_container col-3">
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="footer_links">Praktisk info</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">Program oversigt</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">spørgsmål</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">Nyheder</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="footer_link_container col-3">
-  
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="footer_links">Tilmeld dig</a>
-            </li>
-            <li>
-              <a href="/Tilmelding_DM_amerikansk _BBQ.html" class="footer_links">Som hold</a>
-            </li>
-            <li>
-              <a href="/Tilmelding_som_dommer.html" class="footer_links">Dommer</a>
-            </li>
-            <li>
-              <a href="/Tilmelding_som _rivillige.html" class="footer_links">Frivillig</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-  
-        <!--Grid column-->
-        <div class="footer_link_container col-3">
-  
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="footer_links">Kontakt os</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">Brørup</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">lornhorn@mail.dk</a>
-            </li>
-            <li>
-              <a href="#!" class="footer_links">22 40 33 10</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
+        <!--Grid row-->
       </div>
-      <!--Grid row-->
-    </div>
-    <!-- Grid container -->
-  
-    <!-- Copyright -->
-    <div class="container">
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="container">
         <div class="col-12 copyright_box text-center">
           <div class="footer_border"></div>
           <div class="footer_textbox d-flex align-items-center justify-content-between">
