@@ -83,6 +83,10 @@
     @include header_text;
     color: $septenary-color;
 }
+
+
+
+
 /* containor */
 
 
@@ -182,6 +186,82 @@ height: 67.5px;
     background-image: url(/img/graphics/nav_icon.png);
     width: 30px;
     height: 30px;
+}
+
+/* Footer */
+
+.footer_box {
+    background-color: $senary-color;
+}
+
+.footer_link_container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.footer_links {
+    color: $octonary-color;
+    text-decoration: none;
+    @include style_text;
+    
+    &:hover {
+        color: $septenary-color;
+    }
+}
+
+.footer_links2 {
+    color: #b4b4b4;
+    text-decoration: none;
+    @include style_text;
+    font-size: 25px;
+    
+    &:hover {
+        color: #b4b4b4;
+    }
+}
+
+.copyright_box {
+    background-color: $senary-color;
+}
+
+.footer_inner-box {
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+.footer_border {
+    border-top: 2px solid $octonary-color;
+}
+
+.footer_textbox {
+    height: 70px;
+}
+
+.footer_text {
+    font-size: 15px;
+    color: $octonary-color;
+    margin: 0;
+    @include paragraph_text;
+}
+
+.social_media_instagram_icon {
+    color: $octonary-color;
+    text-decoration: none;
+    margin-right: 15px;
+
+    &:hover {
+        color: $octonary-color;
+    }
+}
+
+.social_media_facebook_icon {
+    color: $octonary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $octonary-color;
+    }
 }
 
 /* Hero */
@@ -297,81 +377,6 @@ height: 67.5px;
     padding-bottom: 12px;
 }
 
-/* Footer */
-
-.footer_box {
-    background-color: $senary-color;
-}
-
-.footer_link_container {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-.footer_links {
-    color: $octonary-color;
-    text-decoration: none;
-    @include style_text;
-    
-    &:hover {
-        color: $septenary-color;
-    }
-}
-
-.footer_links2 {
-    color: #b4b4b4;
-    text-decoration: none;
-    @include style_text;
-    font-size: 25px;
-    
-    &:hover {
-        color: #b4b4b4;
-    }
-}
-
-.copyright_box {
-    background-color: $senary-color;
-}
-
-.footer_inner-box {
-    padding-top: 10vh;
-    padding-bottom: 20vh;
-}
-
-.footer_border {
-    border-top: 2px solid $octonary-color;
-}
-
-.footer_textbox {
-    height: 70px;
-}
-
-.footer_text {
-    font-size: 15px;
-    color: $octonary-color;
-    margin: 0;
-    @include paragraph_text;
-}
-
-.social_media_instagram_icon {
-    color: $octonary-color;
-    text-decoration: none;
-    margin-right: 15px;
-
-    &:hover {
-        color: $octonary-color;
-    }
-}
-
-.social_media_facebook_icon {
-    color: $octonary-color;
-    text-decoration: none;
-
-    &:hover {
-        color: $octonary-color;
-    }
-}
 
 /*cover*/
 .cover_news {
@@ -589,7 +594,6 @@ height: 67.5px;
 .red_box{
     display: flex;
     justify-content: center;
-    padding-left: 12px;
 }
 
 .sign_up_btn{
@@ -606,8 +610,8 @@ height: 67.5px;
 }
 
 .iner_tilmeldingbox{
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .collapsible_tilmelding {
@@ -663,3 +667,247 @@ height: 67.5px;
     background-repeat: no-repeat;
     background-position: 30%, 70%;
   }
+
+/*display*/
+@media only screen and (max-width: 1110.4px) {
+    .header, .header2, .header_underline, .sponsors_header, .sign-up_header {
+        font-size: 45px;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+
+    .paragraph_info {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 991.2px) {
+    .nav_space {
+        height: 59.2px;
+    }
+
+    .hero-container {
+        height: 52vh;
+    }
+
+    .nav-link, .footer_links, .footer_links2 {
+        font-size: 20px;
+    }
+
+    .news_box, .news_box2, .news_box3, .news_textbox {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 892px) {
+    .info-top {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 866.4px) {
+    .header, .header2, .header_underline, .sponsors_header, .sign-up_header {
+        font-size: 35px;
+    }
+
+    .paragraph {
+        font-size: 15px;
+    }
+
+    .paragraph_info, .paragraph_info2 {
+        font-size: 15px;
+    }
+
+    .NEWS {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .sign_up_box, .outer_btn_box, .signup_textbox {
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .sign_up_box {
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .sign_up_dm_img, .sign_up_kid_img, .sign_up_judge_img, .sign_up_volunteer_img {
+        display: none;
+    }
+
+    .sign_up_box, .outer_btn_box, .signup_textbox {
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 724px) {
+    .header, .header2, .header_underline, .sponsors_header, .sign-up_header {
+        font-size: 25px;
+    }  
+
+    .header_underline {
+        border-bottom: 2px solid $secondary-color;
+    }
+
+    .entré_text {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .header, .header2, .header_underline, .sponsors_header, .sign-up_header {
+        font-size: 20px;
+    }  
+
+    .paragraph {
+        font-size: 8px;
+    }
+
+    .paragraph_info, .paragraph_info2 {
+        font-size: 12px;
+    }
+
+    .header_countdown {
+        font-size: 20px;
+    }
+
+    .countdown_number {
+        font-size: 60px;
+    }
+
+    .paragraph_countdown {
+        font-size: 12px;
+    }
+
+    .hero-container {
+        height: 40vh;
+    }
+
+    .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up {
+        height: 35vh;
+    }
+
+    .countdown-container {
+        height: 30vh;
+    }
+
+    .info-top {
+        height: 20vh;
+    }
+
+    .space {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .nav-link, .footer_links, .footer_links2 {
+        font-size: 12px;
+    }
+
+    .footer_inner-box {
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+
+    .footer_text {
+        font-size: 8px;
+    }
+
+    .social_media_instagram_icon {
+        margin-right: 5px;
+    }
+
+    .news_box, .news_box2, .news_box3, .news_textbox {
+        height: 50vh;
+    }
+
+    .news_textbox {
+        padding: 0 12px 0 12px;
+    }
+
+    .NEWS {
+        font-size: 15px;
+    }
+
+    .info_back_box {
+        height: 50vh;
+    }
+
+    .sign_up_box, .outer_btn_box, .signup_textbox {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .entrance_box, .info-textbox {
+        height: 80%;
+    }
+
+    .news_box, .news_box2, .news_box3, .news_textbox {
+        height: 40vh;
+    }
+
+    .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up {
+        height: 25vh;
+    }
+}
+
+@media only screen and (max-width: 452px) {
+    .header, .header2, .header_underline, .sponsors_header, .sign-up_header {
+        font-size: 15px;
+    } 
+
+    .header_underline {
+        font-size: 20px;
+    }
+
+    .paragraph_info, .paragraph_info2 {
+        font-size: 8px;
+    }
+    
+    .entré_text {
+        font-size: 8px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    .news_box, .news_box2, .news_box3, .news_textbox {
+        height: 30vh;
+    }
+
+    .sign_up_box, .outer_btn_box, .signup_textbox {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 394.4px) {
+    .header_underline {
+        font-size: 15px;
+    }
+    
+    .entré_text {
+        font-size: 6px;
+    }
+
+    .entrance_box, .info-textbox {
+        height: 70%;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+}
