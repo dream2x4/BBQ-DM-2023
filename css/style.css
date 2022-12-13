@@ -894,4 +894,18 @@ body {
   .aboutbbq {
     font-size: 45px;
   }
+}
+@media only screen and (max-width: 327.2px) {
+  .header_countdown {
+    font-size: 15px;
+  }
+  .countdown_number {
+    font-size: 55px;
+  }
+  .paragraph_countdown {
+    font-size: 8px;
+  }
+  .hero-container {
+    height: 40vh;
+  }
 }/*# sourceMappingURL=style.css.map */
