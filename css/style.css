@@ -166,6 +166,10 @@ body {
   color: #FFFFFF;
 }
 
+.nav_space {
+  height: 67.5px;
+}
+
 /* flags */
 .dk_flag {
   margin-right: 8px;
