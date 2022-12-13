@@ -587,6 +587,8 @@ body {
 }
 
 .red_box {
+  display: flex;
+  justify-content: center;
   padding-left: 12px;
 }
 
@@ -631,4 +633,30 @@ body {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
+}
+
+/*tilmelding til DM i amerikansk BBQ end*/
+/*tilmelding til DM Kids q*/
+.cover_info_kids_Q {
+  height: 40vh;
+  background-image: url(/img/photos/thumbnail_newskidsq_img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%, 70%;
+}
+
+.cover_info_frivillige {
+  height: 40vh;
+  background-image: url(/img/photos/sign-up_volunteer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%, 70%;
+}
+
+.cover_info_dommer {
+  height: 40vh;
+  background-image: url(/img/photos/sign-up_judge.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30%, 70%;
 }/*# sourceMappingURL=style.css.map */
