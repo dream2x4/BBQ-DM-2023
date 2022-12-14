@@ -529,6 +529,14 @@ height: 67.5px;
     background-position: 50%, 50%;
 }
 
+.cover_sign_up_KIDS {
+    height: 40vh;
+    background-image: url(/img/photos/kødKIDS.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%, 50%;
+}
+
 .sign_up {
     color: $septenary-color;
     @include header_text;
