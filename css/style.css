@@ -954,6 +954,9 @@ body {
   .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up {
     height: 25vh;
   }
+  .cover_sign_up_KIDS {
+    background-image: url(/img/photos/kødKIDSmobile.jpg);
+  }
 }
 @media only screen and (max-width: 452px) {
   .header, .header2, .header_underline, .sponsors_header, .sign-up_header {
