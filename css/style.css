@@ -60,6 +60,16 @@ footer_links {
   font-size: 45px;
 }
 
+.header_hero {
+  z-index: 1;
+  font-family: octin-college, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  font-size: 120px;
+  text-shadow: 0 0 25px #000000;
+}
+
 .countdown_number {
   color: #FFFFFF;
   font-family: octin-college, sans-serif;
@@ -101,6 +111,16 @@ footer_links {
   margin: 12px 0;
 }
 
+.paragraph_hero {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  text-shadow: 0 0 25px #000000;
+}
+
 .paragraph_countdown {
   color: #FFFFFF;
   text-align: center;
@@ -122,7 +142,6 @@ footer_links {
   color: #FFFFFF;
 }
 
-/* containor */
 /* Buttons */
 .btn {
   font-size: 45px;
@@ -135,6 +154,22 @@ footer_links {
   width: 100%;
 }
 .btn:hover {
+  color: #F9EACB;
+  background-color: #7C1A17;
+}
+
+.hero_btn {
+  font-size: 60px;
+  color: #F9EACB;
+  background-color: #7C1A17;
+  border-radius: 0;
+  font-family: octin-spraypaint, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 80%;
+  text-decoration: none;
+}
+.hero_btn:hover {
   color: #F9EACB;
   background-color: #7C1A17;
 }
@@ -249,6 +284,7 @@ body {
 
 .copyright_box {
   background-color: #2C2A29;
+  margin: 0;
 }
 
 .footer_inner-box {
@@ -292,8 +328,28 @@ body {
 
 /* Hero */
 .hero-container {
-  background-color: aqua;
+  background-color: #000000;
   height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero_textbox {
+  z-index: 1;
+}
+
+.hero_video {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: auto;
 }
 
 /* Countdown */
@@ -723,6 +779,19 @@ body {
   .hero-container {
     height: 52vh;
   }
+  .header_hero {
+    font-size: 90px;
+  }
+  .paragraph_hero {
+    font-size: 20px;
+  }
+  .hero_btn {
+    font-size: 45px;
+  }
+  .hero_video {
+    height: auto;
+    width: 100%;
+  }
   .nav-link, .footer_links, .footer_links2 {
     font-size: 20px;
   }
@@ -756,6 +825,15 @@ body {
   }
 }
 @media only screen and (max-width: 767px) {
+  .header_hero {
+    font-size: 60px;
+  }
+  .paragraph_hero {
+    font-size: 15px;
+  }
+  .hero_btn {
+    font-size: 30px;
+  }
   .sign_up_box {
     justify-content: center !important;
     align-items: center;
@@ -765,6 +843,12 @@ body {
   }
   .sign_up_box, .outer_btn_box, .signup_textbox {
     height: 50vh;
+  }
+}
+@media only screen and (max-width: 749.6px) {
+  .hero_video {
+    height: 100%;
+    width: auto;
   }
 }
 @media only screen and (max-width: 724px) {
@@ -799,6 +883,10 @@ body {
   }
   .hero-container {
     height: 40vh;
+  }
+  .hero_video {
+    height: auto;
+    width: 100%;
   }
   .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up {
     height: 35vh;
@@ -842,6 +930,12 @@ body {
     height: 40vh;
   }
 }
+@media only screen and (max-width: 579.2px) {
+  .hero_video {
+    height: 100%;
+    width: auto;
+  }
+}
 @media only screen and (max-width: 524px) {
   .entrance_box, .info-textbox {
     height: 80%;
@@ -862,6 +956,15 @@ body {
   }
   .paragraph_info, .paragraph_info2 {
     font-size: 8px;
+  }
+  .header_hero {
+    font-size: 45px;
+  }
+  .paragraph_hero {
+    font-size: 15px;
+  }
+  .hero_btn {
+    font-size: 25px;
   }
   .entré_text {
     font-size: 8px;
