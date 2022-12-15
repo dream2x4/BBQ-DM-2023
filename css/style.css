@@ -896,7 +896,7 @@ body {
     height: auto;
     width: 100%;
   }
-  .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up {
+  .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up, .cover_sign_up_KIDS {
     height: 35vh;
   }
   .countdown-container {
@@ -951,7 +951,7 @@ body {
   .news_box, .news_box2, .news_box3, .news_textbox {
     height: 40vh;
   }
-  .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up {
+  .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up, .cover_sign_up_KIDS {
     height: 25vh;
   }
   .cover_sign_up_KIDS {
