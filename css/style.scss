@@ -973,6 +973,14 @@ height: 67.5px;
     .cover_news, .cover_info, .cover_aboutbbq, .cover_sign_up {
         height: 25vh;
     }
+
+    .cover_sign_up_KIDS {
+        height: 40vh;
+        background-image: url(/img/photos/kødKIDSmobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50%, 50%;
+    }
 }
 
 @media only screen and (max-width: 452px) {
